@@ -1,0 +1,56 @@
+name: RealSizeWatch
+options:
+  bundleIdPrefix: studio.once
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+targets:
+  RealSizeWatch:
+    type: application
+    platform: iOS
+    sources:
+      - path: RealSizeWatch
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: studio.once.realsizewatch
+        PRODUCT_NAME: RealSizeWatch
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    info:
+      path: RealSizeWatch/Info.plist
+      properties:
+        CFBundleDisplayName: Real Size
+        NSCameraUsageDescription: "팔 피부색을 샘플링하고 주변 조명 변화를 추적하기 위해 카메라를 사용합니다. 영상은 저장하거나 전송하지 않습니다."
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIRequiresFullScreen: true
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+  RealSizeWatchTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [RealSizeWatchTests]
+    dependencies:
+      - target: RealSizeWatch
+  RealSizeWatchUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [RealSizeWatchUITests]
+    dependencies:
+      - target: RealSizeWatch
+schemes:
+  RealSizeWatch:
+    build:
+      targets:
+        RealSizeWatch: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets: [RealSizeWatchTests, RealSizeWatchUITests]

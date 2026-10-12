@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05964CAD78D57227822AE94B /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A78229446E1240FDBDCC15 /* Components.swift */; };
+		178D178082CE76E27362D3F5 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579ABDB73E11C2824FD4BF5 /* OnboardingFlow.swift */; };
+		1C9B3C4C3206A1CF2BC86E88 /* WristCalibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D4010D2C4955B797CF3CC /* WristCalibrationView.swift */; };
+		21C59B0D71620B937C83CC1D /* RealSizeWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343A9641D0FEDA5C3D9B38B /* RealSizeWatchApp.swift */; };
+		2718BEA04FCA710410E7CC66 /* SkinSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C268F29DE0FAA84CF705C9D7 /* SkinSampler.swift */; };
+		27692EB66769BDC9860AE200 /* PhysicalScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E979CFDA3E84039EAD185 /* PhysicalScale.swift */; };
+		422B4FBF80A1E7C8488FF2CC /* ScreenControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B8AAD5F8A459CB4302A2B /* ScreenControl.swift */; };
+		4CD21DD3C4C8FAFE2930480B /* WatchSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF75097AA7D6EB649021D14 /* WatchSpec.swift */; };
+		50B173FC4EC69CF6AE1D5E66 /* CardCalibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A64395E192D4C6A815A1B /* CardCalibrationView.swift */; };
+		586E81BB51F102EE3073F76A /* RealSizeWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72DBDCD9361597D6C835379 /* RealSizeWatchUITests.swift */; };
+		5A20094C743B231860B8DBB8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E8B99B9F6DAEC79CEF8EE /* SettingsView.swift */; };
+		6021F693AD800D19F012A2CB /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE15A039A14B7A91298036 /* DeviceInfo.swift */; };
+		62385988AB6FD7F8091B3F60 /* SkinSampleStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F6882855A7FB14CD57A26 /* SkinSampleStep.swift */; };
+		66DC7A253590947E49C22921 /* RealSizeWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFA6CC2A4AC6C9F5980C3A /* RealSizeWatchTests.swift */; };
+		6DD415DE0C73BE5DAAD7AE8A /* CaptureEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A22BF46B698587222817 /* CaptureEngine.swift */; };
+		6F007305BCCD41AF1201A2E2 /* WristFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4400992A01ACABBBFFBB92 /* WristFit.swift */; };
+		9E9587C6E1422C6789BB5BD4 /* SpecEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F3BE96D7EA273F93F3BF3 /* SpecEditorView.swift */; };
+		A1E9E491F0023F847A288424 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD82C78A0E40A830E630DAA /* AppModel.swift */; };
+		AF4C7F30B0B25D2FE8DC7B81 /* TryOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F99C1C15CE8574B07314C2 /* TryOnView.swift */; };
+		BD94F9751E71C83B2A403E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D898DCDA69AAA0892F193C29 /* Assets.xcassets */; };
+		C6E960E4C238B6022ED9C868 /* SideProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A444DF4AD77731C46A6A6C9 /* SideProfileView.swift */; };
+		DD71C2B27512E3ED3AE4B1B4 /* WatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC909D259F197CD511CF7529 /* WatchListView.swift */; };
+		E759D6EB42811CB37C7FA379 /* WatchGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61644E3F1BEC9407917A20 /* WatchGeometry.swift */; };
+		E778530EB832C39343E42E55 /* WristRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF209FCDE8198CC09BC33E07 /* WristRenderer.swift */; };
+		EAC3548D7E8D1D26FE085231 /* SkinTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B552778E37F863F57D434B /* SkinTone.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5495168FB9FBB7D978823C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06AE9D119B6148B73661A75E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4ABD39A223E14D2C582AEBE;
+			remoteInfo = RealSizeWatch;
+		};
+		55D7A946251C36F2B0C0E0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06AE9D119B6148B73661A75E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4ABD39A223E14D2C582AEBE;
+			remoteInfo = RealSizeWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		143D4010D2C4955B797CF3CC /* WristCalibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristCalibrationView.swift; sourceTree = "<group>"; };
+		27B552778E37F863F57D434B /* SkinTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTone.swift; sourceTree = "<group>"; };
+		2CF75097AA7D6EB649021D14 /* WatchSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSpec.swift; sourceTree = "<group>"; };
+		3C4400992A01ACABBBFFBB92 /* WristFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristFit.swift; sourceTree = "<group>"; };
+		3C9E979CFDA3E84039EAD185 /* PhysicalScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalScale.swift; sourceTree = "<group>"; };
+		3F584FE247E7B949424616AE /* RealSizeWatchTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RealSizeWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5E8B99B9F6DAEC79CEF8EE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		455F6882855A7FB14CD57A26 /* SkinSampleStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinSampleStep.swift; sourceTree = "<group>"; };
+		4819A22BF46B698587222817 /* CaptureEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureEngine.swift; sourceTree = "<group>"; };
+		51A78229446E1240FDBDCC15 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		54729EDCC7BFF4E42C38D48C /* RealSizeWatchUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RealSizeWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5579ABDB73E11C2824FD4BF5 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		5DDFA6CC2A4AC6C9F5980C3A /* RealSizeWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSizeWatchTests.swift; sourceTree = "<group>"; };
+		6A444DF4AD77731C46A6A6C9 /* SideProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideProfileView.swift; sourceTree = "<group>"; };
+		84CE15A039A14B7A91298036 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		8BD82C78A0E40A830E630DAA /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		9343A9641D0FEDA5C3D9B38B /* RealSizeWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSizeWatchApp.swift; sourceTree = "<group>"; };
+		9C3F3BE96D7EA273F93F3BF3 /* SpecEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecEditorView.swift; sourceTree = "<group>"; };
+		9D7A64395E192D4C6A815A1B /* CardCalibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCalibrationView.swift; sourceTree = "<group>"; };
+		9F61644E3F1BEC9407917A20 /* WatchGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchGeometry.swift; sourceTree = "<group>"; };
+		A4F99C1C15CE8574B07314C2 /* TryOnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryOnView.swift; sourceTree = "<group>"; };
+		A78F35786525BCE55D0E0F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC909D259F197CD511CF7529 /* WatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListView.swift; sourceTree = "<group>"; };
+		C268F29DE0FAA84CF705C9D7 /* SkinSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinSampler.swift; sourceTree = "<group>"; };
+		D898DCDA69AAA0892F193C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2B8AAD5F8A459CB4302A2B /* ScreenControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenControl.swift; sourceTree = "<group>"; };
+		EF209FCDE8198CC09BC33E07 /* WristRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristRenderer.swift; sourceTree = "<group>"; };
+		F72DBDCD9361597D6C835379 /* RealSizeWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSizeWatchUITests.swift; sourceTree = "<group>"; };
+		F843018246FAFF774D00B2E4 /* RealSizeWatch.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RealSizeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B4E958778FCAB89B29E9572 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3F5E8B99B9F6DAEC79CEF8EE /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1FEE6AEEEB614D93079A82B1 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				9C3F3BE96D7EA273F93F3BF3 /* SpecEditorView.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		2CF5CE5A4A4ECB70799FA570 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9343A9641D0FEDA5C3D9B38B /* RealSizeWatchApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		45227684FD697FC782EAB49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F843018246FAFF774D00B2E4 /* RealSizeWatch.app */,
+				3F584FE247E7B949424616AE /* RealSizeWatchTests.xctest */,
+				54729EDCC7BFF4E42C38D48C /* RealSizeWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A8C892E9BCC728745F7AEF /* RealSizeWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFA6CC2A4AC6C9F5980C3A /* RealSizeWatchTests.swift */,
+			);
+			path = RealSizeWatchTests;
+			sourceTree = "<group>";
+		};
+		4F8C88AC8193EE50D77D663F /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4819A22BF46B698587222817 /* CaptureEngine.swift */,
+				C268F29DE0FAA84CF705C9D7 /* SkinSampler.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		55025780EA7FD35DA867E142 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EA2B8AAD5F8A459CB4302A2B /* ScreenControl.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		66C033916267FEB37CB09E79 /* RealSizeWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D898DCDA69AAA0892F193C29 /* Assets.xcassets */,
+				A78F35786525BCE55D0E0F5D /* Info.plist */,
+				2CF5CE5A4A4ECB70799FA570 /* App */,
+				4F8C88AC8193EE50D77D663F /* Camera */,
+				EF4C0C227F192B654112F319 /* Design */,
+				F8348E9123E05352A5096D6A /* Domain */,
+				ADD8D7D2298058A296F56922 /* Features */,
+				C0018DEE8A2ADA9A1B1595CB /* Rendering */,
+				55025780EA7FD35DA867E142 /* Support */,
+			);
+			path = RealSizeWatch;
+			sourceTree = "<group>";
+		};
+		683F96F8B30950893D913F5F = {
+			isa = PBXGroup;
+			children = (
+				66C033916267FEB37CB09E79 /* RealSizeWatch */,
+				45A8C892E9BCC728745F7AEF /* RealSizeWatchTests */,
+				EAE4050D48DCA3C3E9002EC6 /* RealSizeWatchUITests */,
+				45227684FD697FC782EAB49B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B102CDF4F35328CD85EF431 /* TryOn */ = {
+			isa = PBXGroup;
+			children = (
+				A4F99C1C15CE8574B07314C2 /* TryOnView.swift */,
+				AC909D259F197CD511CF7529 /* WatchListView.swift */,
+			);
+			path = TryOn;
+			sourceTree = "<group>";
+		};
+		AB2308AC289D92EDDA1DCA8C /* Calibration */ = {
+			isa = PBXGroup;
+			children = (
+				9D7A64395E192D4C6A815A1B /* CardCalibrationView.swift */,
+				143D4010D2C4955B797CF3CC /* WristCalibrationView.swift */,
+			);
+			path = Calibration;
+			sourceTree = "<group>";
+		};
+		ADD8D7D2298058A296F56922 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AB2308AC289D92EDDA1DCA8C /* Calibration */,
+				1FEE6AEEEB614D93079A82B1 /* Editor */,
+				BCD9C0F6FF6DED25D1CE3EC6 /* Onboarding */,
+				0B4E958778FCAB89B29E9572 /* Settings */,
+				6B102CDF4F35328CD85EF431 /* TryOn */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BCD9C0F6FF6DED25D1CE3EC6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				5579ABDB73E11C2824FD4BF5 /* OnboardingFlow.swift */,
+				455F6882855A7FB14CD57A26 /* SkinSampleStep.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C0018DEE8A2ADA9A1B1595CB /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				6A444DF4AD77731C46A6A6C9 /* SideProfileView.swift */,
+				9F61644E3F1BEC9407917A20 /* WatchGeometry.swift */,
+				EF209FCDE8198CC09BC33E07 /* WristRenderer.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		EAE4050D48DCA3C3E9002EC6 /* RealSizeWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F72DBDCD9361597D6C835379 /* RealSizeWatchUITests.swift */,
+			);
+			path = RealSizeWatchUITests;
+			sourceTree = "<group>";
+		};
+		EF4C0C227F192B654112F319 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				51A78229446E1240FDBDCC15 /* Components.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		F8348E9123E05352A5096D6A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8BD82C78A0E40A830E630DAA /* AppModel.swift */,
+				84CE15A039A14B7A91298036 /* DeviceInfo.swift */,
+				3C9E979CFDA3E84039EAD185 /* PhysicalScale.swift */,
+				27B552778E37F863F57D434B /* SkinTone.swift */,
+				2CF75097AA7D6EB649021D14 /* WatchSpec.swift */,
+				3C4400992A01ACABBBFFBB92 /* WristFit.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F1083FAE3E109950CECE03B /* RealSizeWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59345062FA7C6508CAD71C3E /* Build configuration list for PBXNativeTarget "RealSizeWatchUITests" */;
+			buildPhases = (
+				A17A921ADCD5B2B8C3E6210D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494A763B32CC03A790FA1F59 /* PBXTargetDependency */,
+			);
+			name = RealSizeWatchUITests;
+			packageProductDependencies = (
+			);
+			productName = RealSizeWatchUITests;
+			productReference = 54729EDCC7BFF4E42C38D48C /* RealSizeWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CB4F8BF475A55E40F0F79F9A /* RealSizeWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2FB8A1D4B946D9133992ED /* Build configuration list for PBXNativeTarget "RealSizeWatchTests" */;
+			buildPhases = (
+				820C54F373E919E03F0CFA96 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A9105BB53A67B24C1AAA5D /* PBXTargetDependency */,
+			);
+			name = RealSizeWatchTests;
+			packageProductDependencies = (
+			);
+			productName = RealSizeWatchTests;
+			productReference = 3F584FE247E7B949424616AE /* RealSizeWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4ABD39A223E14D2C582AEBE /* RealSizeWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC88722CEC0FE3F08EF34B4D /* Build configuration list for PBXNativeTarget "RealSizeWatch" */;
+			buildPhases = (
+				E588E392A9070E5FFAD03E77 /* Sources */,
+				5E21CEB67B06A6E2FC02DB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealSizeWatch;
+			packageProductDependencies = (
+			);
+			productName = RealSizeWatch;
+			productReference = F843018246FAFF774D00B2E4 /* RealSizeWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06AE9D119B6148B73661A75E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2F1083FAE3E109950CECE03B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4ABD39A223E14D2C582AEBE;
+					};
+					CB4F8BF475A55E40F0F79F9A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F4ABD39A223E14D2C582AEBE = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C90F0221D71B389453B2397 /* Build configuration list for PBXProject "RealSizeWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 683F96F8B30950893D913F5F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 45227684FD697FC782EAB49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4ABD39A223E14D2C582AEBE /* RealSizeWatch */,
+				CB4F8BF475A55E40F0F79F9A /* RealSizeWatchTests */,
+				2F1083FAE3E109950CECE03B /* RealSizeWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E21CEB67B06A6E2FC02DB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD94F9751E71C83B2A403E9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820C54F373E919E03F0CFA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DC7A253590947E49C22921 /* RealSizeWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17A921ADCD5B2B8C3E6210D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586E81BB51F102EE3073F76A /* RealSizeWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E588E392A9070E5FFAD03E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E9E491F0023F847A288424 /* AppModel.swift in Sources */,
+				6DD415DE0C73BE5DAAD7AE8A /* CaptureEngine.swift in Sources */,
+				50B173FC4EC69CF6AE1D5E66 /* CardCalibrationView.swift in Sources */,
+				05964CAD78D57227822AE94B /* Components.swift in Sources */,
+				6021F693AD800D19F012A2CB /* DeviceInfo.swift in Sources */,
+				178D178082CE76E27362D3F5 /* OnboardingFlow.swift in Sources */,
+				27692EB66769BDC9860AE200 /* PhysicalScale.swift in Sources */,
+				21C59B0D71620B937C83CC1D /* RealSizeWatchApp.swift in Sources */,
+				422B4FBF80A1E7C8488FF2CC /* ScreenControl.swift in Sources */,
+				5A20094C743B231860B8DBB8 /* SettingsView.swift in Sources */,
+				C6E960E4C238B6022ED9C868 /* SideProfileView.swift in Sources */,
+				62385988AB6FD7F8091B3F60 /* SkinSampleStep.swift in Sources */,
+				2718BEA04FCA710410E7CC66 /* SkinSampler.swift in Sources */,
+				EAC3548D7E8D1D26FE085231 /* SkinTone.swift in Sources */,
+				9E9587C6E1422C6789BB5BD4 /* SpecEditorView.swift in Sources */,
+				AF4C7F30B0B25D2FE8DC7B81 /* TryOnView.swift in Sources */,
+				E759D6EB42811CB37C7FA379 /* WatchGeometry.swift in Sources */,
+				DD71C2B27512E3ED3AE4B1B4 /* WatchListView.swift in Sources */,
+				4CD21DD3C4C8FAFE2930480B /* WatchSpec.swift in Sources */,
+				1C9B3C4C3206A1CF2BC86E88 /* WristCalibrationView.swift in Sources */,
+				6F007305BCCD41AF1201A2E2 /* WristFit.swift in Sources */,
+				E778530EB832C39343E42E55 /* WristRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494A763B32CC03A790FA1F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4ABD39A223E14D2C582AEBE /* RealSizeWatch */;
+			targetProxy = 5495168FB9FBB7D978823C87 /* PBXContainerItemProxy */;
+		};
+		A0A9105BB53A67B24C1AAA5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4ABD39A223E14D2C582AEBE /* RealSizeWatch */;
+			targetProxy = 55D7A946251C36F2B0C0E0CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		501DA9A2B68CFFB3090AB033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = RealSizeWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.once.realsizewatch;
+				PRODUCT_NAME = RealSizeWatch;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		525247F9D4519372A76A76D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.once.RealSizeWatchTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealSizeWatch.app/RealSizeWatch";
+			};
+			name = Debug;
+		};
+		546245DB475F72C8B77D163C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.once.RealSizeWatchUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealSizeWatch;
+			};
+			name = Release;
+		};
+		5473CC5B1439E0BEFC484654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5929C7B849BC570E29873D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = RealSizeWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.once.realsizewatch;
+				PRODUCT_NAME = RealSizeWatch;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC419B47EFFB363720A255E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.once.RealSizeWatchTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealSizeWatch.app/RealSizeWatch";
+			};
+			name = Release;
+		};
+		C5185368E47593B23BF79C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DCA03CC2B63EDF17FEF40651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.once.RealSizeWatchUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealSizeWatch;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C90F0221D71B389453B2397 /* Build configuration list for PBXProject "RealSizeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5185368E47593B23BF79C73 /* Debug */,
+				5473CC5B1439E0BEFC484654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		59345062FA7C6508CAD71C3E /* Build configuration list for PBXNativeTarget "RealSizeWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA03CC2B63EDF17FEF40651 /* Debug */,
+				546245DB475F72C8B77D163C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC88722CEC0FE3F08EF34B4D /* Build configuration list for PBXNativeTarget "RealSizeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5929C7B849BC570E29873D60 /* Debug */,
+				501DA9A2B68CFFB3090AB033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC2FB8A1D4B946D9133992ED /* Build configuration list for PBXNativeTarget "RealSizeWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525247F9D4519372A76A76D2 /* Debug */,
+				AC419B47EFFB363720A255E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06AE9D119B6148B73661A75E /* Project object */;
+}
