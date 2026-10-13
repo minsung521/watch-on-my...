@@ -7,7 +7,7 @@ settings:
   base:
     SWIFT_VERSION: "5.0"
     TARGETED_DEVICE_FAMILY: "1"
-    DEVELOPMENT_TEAM: ""
+    DEVELOPMENT_TEAM: YQPVRPSS5F
     CODE_SIGN_STYLE: Automatic
 targets:
   WatchOnMy:
