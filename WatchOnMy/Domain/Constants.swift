@@ -14,7 +14,7 @@ enum Constants {
     static let canvasBrightness = 0.85
 
     // 손목 띠 경계 페이드
-    static let bandEdgeFadeMM = 2.5    // 띠 위·아래 가장자리 (맞춘 폭의 경계를 중심으로)
+    static let bandEdgeFadeMM = 0.8    // 띠 위·아래 가장자리 (맞춘 폭의 경계를 중심으로). 2.5mm는 실루엣이 뭉개져 보여 줄임
     static let screenSideFadeMM = 10.0 // 화면 좌·우 끝 (실기 확인 후 조정)
 
     /// 손목 곡률 음영: 띠 높이 대비 위치 → 밝기 배율 (02 3-2)

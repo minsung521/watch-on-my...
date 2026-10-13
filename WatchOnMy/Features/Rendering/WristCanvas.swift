@@ -115,12 +115,7 @@ struct WristRenderer {
             // 화면 좌·우 끝: 실제 팔과 이어지는 경계의 소프트 페이드
             layer.blendMode = .destinationIn
             layer.fill(Path(rect), with: .linearGradient(
-                Gradient(stops: [
-                    .init(color: .white.opacity(0), location: 0),
-                    .init(color: .white, location: sideFade),
-                    .init(color: .white, location: 1 - sideFade),
-                    .init(color: .white.opacity(0), location: 1),
-                ]),
+                Gradient(stops: Self.sideFadeStops(sideFade)),
                 startPoint: CGPoint(x: 0, y: 0),
                 endPoint: CGPoint(x: size.width, y: 0)
             ))
@@ -327,6 +322,18 @@ struct WristRenderer {
         drawStrap(strap, widthMM: photo.strapWidthMM, color: photo.strapColor, frame: frame, in: &context)
         // 크라운 방향 토글은 적용하지 않는다 (사진 그대로)
         context.draw(swiftUIImage, in: rect)
+    }
+
+    /// 화면 좌·우 끝 페이드. 선형으로 끝나면 페이드가 멈추는 곳에 세로 줄(마하 밴드)이 보여 smoothstep으로 이어 붙인다
+    static func sideFadeStops(_ width: CGFloat) -> [Gradient.Stop] {
+        let steps = 12
+        let ramp = (0...steps).map { index -> (CGFloat, Double) in
+            let t = Double(index) / Double(steps)
+            return (width * CGFloat(t), t * t * (3 - 2 * t))
+        }
+        let left = ramp.map { Gradient.Stop(color: .white.opacity($0.1), location: $0.0) }
+        let right = ramp.reversed().map { Gradient.Stop(color: .white.opacity($0.1), location: 1 - $0.0) }
+        return left + right
     }
 
     static func polygon(_ points: [CGPoint]) -> Path {

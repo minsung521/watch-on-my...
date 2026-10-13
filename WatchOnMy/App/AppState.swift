@@ -71,7 +71,14 @@ final class AppState {
             device = DeviceInfo(identifier: arguments[index + 1], nativeScale: device.nativeScale, isSimulator: device.isSimulator)
         }
         #endif
-        return AppState(device: device, store: store, photos: .shared)
+        let appState = AppState(device: device, store: store, photos: .shared)
+        #if DEBUG
+        // 화면 확인용: 온보딩을 건너뛰고 기본 손목으로 메인을 띄운다
+        if arguments.contains("-debug-sample-wrist"), appState.state.wrist == nil {
+            appState.saveWrist(WristProfile.initial(scale: appState.scale))
+        }
+        #endif
+        return appState
     }
 
     // MARK: 스케일 (01)
